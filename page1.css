@@ -1,0 +1,96 @@
+body{
+   background-color:#C8C8C8;
+   padding: 50px;
+   font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    color: red;
+}
+caption{
+    margin-bottom: 2%;
+    text-align: left;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+tr th{
+    background-color: black;
+    color: white;
+
+}
+tr:hover td{
+    background-color: #999999;
+    cursor: pointer;
+}
+
+tr{
+    height: 50px;
+}
+tr:nth-child(2n){
+    background-color: #DDDDDD;
+}
+
+a{ 
+    color: red;
+    font-weight: bold;
+ 
+    
+}
+
+p {
+    text-align: justify;
+    
+  
+}
+
+figure{
+    border: 5px solid red;
+    background-color: #333333;
+    border-radius: 10px;
+    width: 1155px;
+    margin-left: 0;
+    margin-right: 0 ;
+}
+
+img{
+    
+    max-width: 90%;
+    padding: 50px;
+}
+
+figcaption{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para{
+    border: 2px dashed blue;
+    line-height: 2;
+    padding: 25px;
+    margin: 25px;
+    background-color:#B7B7B7;
+    color: blue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
